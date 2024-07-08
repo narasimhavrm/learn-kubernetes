@@ -71,6 +71,6 @@ spec:
   volumes:
   - name: test-volume
     hostPath:
-      path: /data
+      path: /data/out
       type: Directory
 
