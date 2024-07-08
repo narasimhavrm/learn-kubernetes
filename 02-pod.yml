@@ -17,7 +17,7 @@ metadata:
   annotations:
     training/course: devops
   labels:
-    test
+    type: test
 spec:
   containers:
     - name: nginx
