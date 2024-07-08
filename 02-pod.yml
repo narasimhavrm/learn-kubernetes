@@ -64,7 +64,7 @@ spec:
     - image: debian
       name: test-volume
       command: [ "/bin/sh" ]
-      args: [ "-c", while true; do date>/data/out; sleep 1; done" ]
+      args: [ "-c", "while true; do date>/data/out; sleep 1; done" ]
       volumeMounts:
       - mountPath: /data
         name: test-volume
