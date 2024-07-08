@@ -66,11 +66,11 @@ spec:
     command: [ "/bin/sh" ]
     args: [ "-c", "while true; do date >/data/out; sleep 1; done" ]
     volumeMounts:
-    - mountPath: /data
-      name: test-volume
+      - mountPath: /data
+        name: test-volume
   volumes:
-  - name: test-volume
-    hostPath:
-      path: /data/out
-      type: Directory
+    - name: test-volume
+      hostPath:
+        path: /data
+        type: Directory
 
