@@ -27,7 +27,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod03
+  name: pod04
   annotations:
     training/course: devops
   labels:
